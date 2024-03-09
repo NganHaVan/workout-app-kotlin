@@ -133,7 +133,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun startRestTimer() {
-        val REST_TIME = 2
+        val REST_TIME = 10
 
         // Reset progress bar with rest value
         exerciseBinding.tvTitle.text = "GET READY IN"
@@ -162,7 +162,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         speakOut(exerciseList!!.get(currentExerciseIndex)!!.getName())
 
-        val EXERCISE_TIME = 5
+        val EXERCISE_TIME = 30
         // Reset progress bar with exercise value
         exerciseBinding.progressBar.max = EXERCISE_TIME
         exerciseBinding.progressBar.progress = EXERCISE_TIME
