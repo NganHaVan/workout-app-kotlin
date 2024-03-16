@@ -5,9 +5,13 @@ Welcome to 7-min Workout App! This Android application is designed to help users
 ## Demo
 
 <video controls width="500">
-  <source src="assets/demo.mp4" type="video/mp4">
+  <source src="assets/demo.mp4" type="video/mp4" alt="Demo app">
   Your browser does not support the video tag.
 </video>
+
+If you cannot see the video, please click it
+
+[Download the video](/assets/demo.mp4)
 
 ## Features
 
